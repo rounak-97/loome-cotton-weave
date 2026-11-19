@@ -2,7 +2,8 @@
 
 A minimalist e-commerce product page built with HTML, CSS, and vanilla JavaScript, focused on layered UI composition with CSS positioning.
 
-**Live Demo:** [https://your-app.vercel.app](https://your-app.vercel.app)
+**Live Demo:** 
+[https://rounak-97.github.io/loome-cotton-weave/](https://rounak-97.github.io/loome-cotton-weave/)
 
 ## Features
 
@@ -39,6 +40,6 @@ loomé/
 
 1. Clone the repository:
    ```bash
-   git clone "https://github.com/your-username/loome-cotton-weave.git"
+   git clone "https://github.com/rounak-97/loome-cotton-weave.git"
    ```
 2. Open `index.html` in your browser or run with VS Code Live Server.
