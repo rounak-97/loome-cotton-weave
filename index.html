@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>loomé. - A Cotton Weave</title>
+
+  <!-- Link Google Fonts: Cormorant Garamond & Plus Jakarta Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet" />
+
+  <!-- Link Remix Icon Fonts -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!-- Link CSS file -->
+  <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+  <!-- Decorative Leaf Shadow -->
+  <img src="./assets/leaf-shadow.png" alt="" class="leaf-shadow" />
+
+  <div class="page-wrapper">
+
+    <!-- Header Section: Navigation Bar -->
+    <header>
+      <nav>
+        <a href="#" class="logo">loomé.</a>
+
+        <div class="nav-links">
+          <a href="#">Home</a>
+          <a href="#" class="active">Shop</a>
+          <a href="#">Collection</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="cart-btn" aria-label="Shopping Bag">
+            <i class="ri-shopping-bag-line"></i>
+            <span class="cart-badge">2</span>
+          </button>
+
+          <button class="menu-btn" aria-label="Toggle menu">
+            <i class="ri-equal-line"></i>
+          </button>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <!-- Left Column: Product Info -->
+      <section class="left-section">
+        <div class="collection-tag">
+          <i class="ri-leaf-line"></i>
+          <span>NEW COLLECTION</span>
+        </div>
+
+        <h1 class="product-title">a cotton<br />weave</h1>
+
+        <div class="title-line"></div>
+
+        <p class="product-intro">
+          Crafted from 100% organic cotton with a soft, breathable feel.
+          Perfect for all seasons and everyday elegance.
+        </p>
+
+        <!-- Color Selector -->
+        <div class="color-row">
+          <span class="color-label">colors</span>
+          <div class="color-swatches">
+            <button class="swatch olive active" aria-label="Olive Green"></button>
+            <button class="swatch beige" aria-label="Warm Beige"></button>
+            <button class="swatch rose" aria-label="Dusty Rose"></button>
+          </div>
+        </div>
+
+        <!-- Product Details -->
+        <div class="details-block">
+          <div class="details-heading">
+            <h2>Details</h2>
+            <span class="details-line"></span>
+          </div>
+          <p class="details-text">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Accusamus, sapiente. Ipsam maiores nemo, quidem veniam et atque
+            susciptt, saepe doloribus ab molestiae deserunt? Totam natus
+            eligendi neque.
+          </p>
+        </div>
+
+        <!-- Bottom Feature Icons -->
+        <div class="left-features">
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="ri-leaf-line"></i>
+            </div>
+            <p>Organic<br />Cotton</p>
+          </div>
+
+          <div class="feature-divider"></div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="ri-quill-pen-line"></i>
+            </div>
+            <p>Soft &<br />Lightweight</p>
+          </div>
+
+          <div class="feature-divider"></div>
+
+          <div class="feature-item">
+            <div class="feature-icon">
+              <i class="ri-grid-line"></i>
+            </div>
+            <p>Handmade<br />Weave</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Center Column: Hero Photo & Floating Overlays -->
+      <section class="center-section">
+        <div class="hero-stage">
+          <!-- Vertical Rotated Label -->
+          <div class="vertical-label">
+            <span class="vertical-line"></span>
+            <span>cotton twill scarf</span>
+          </div>
+
+          <!-- Relative parent for floating price, rating, and bag button --> 
+          <div class="hero-card">
+            <img src="./assets/hero.jpg" alt="Woman wearing a cotton weave scarf" class="hero-img" />
+
+            <!-- Top-Left Price Tag -->
+            <div class="price-pill">$488</div>
+
+            <!-- Top-Right Rating Box -->
+            <div class="rating-pill">
+              <span>Rating</span>
+              <div class="rating-stars">
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+                <i class="ri-star-fill"></i>
+              </div>
+            </div>
+
+            <!-- Bottom-Right Add to Bag Circle -->
+            <button class="add-bag-circle">
+              <i class="ri-shopping-bag-line"></i>
+              <span>Add to bag</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Bottom Trust & Shipping Bar -->
+        <div class="shipping-bar">
+          <div class="shipping-item">
+            <i class="ri-shield-check-line"></i>
+            <div>
+              <strong>Secure</strong>
+              <span>Payment</span>
+            </div>
+          </div>
+
+          <div class="shipping-divider"></div>
+
+          <div class="shipping-item">
+            <i class="ri-truck-line"></i>
+            <div>
+              <strong>Free Shipping</strong>
+              <span>Over $100</span>
+            </div>
+          </div>
+
+          <div class="shipping-divider"></div>
+
+          <div class="shipping-item">
+            <i class="ri-loop-left-line"></i>
+            <div>
+              <strong>Easy Returns</strong>
+              <span>30 Days</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Column: Product Gallery Thumbnails -->
+      <aside class="right-section" aria-label="Product Gallery Thumbnails">
+        <button class="thumb-card active" aria-label="View Model Look">
+          <img src="./assets/thumb1.jpg" alt="Model wearing scarf" />
+        </button>
+
+        <button class="thumb-card" aria-label="View Fabric Texture">
+          <img src="./assets/thumb2.jpg" alt="Soft cotton weave folds" />
+        </button>
+
+        <button class="thumb-card" aria-label="View Folded Scarf">
+          <img src="./assets/thumb3.jpg" alt="Folded scarf with fringe" />
+        </button>
+
+        <button class="thumb-card" aria-label="View Cotton Stems">
+          <img src="./assets/thumb4.jpg" alt="Natural cotton plant stems" />
+        </button>
+      </aside>
+    </main>
+  </div>
+  <!-- JavaScript File Link -->
+  <script src="./script.js"></script>
+</body>
+
+</html>
